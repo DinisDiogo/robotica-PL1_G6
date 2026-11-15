@@ -1,0 +1,9 @@
+robot:
+  ip: "127.0.0.1" #"192.168.1.160" # Substitui pelo IP real do Lite 6
+  home_deg: [0, 0, 0, 0, 0, 0] # A tua pose de home segura
+  reduced_mode:
+    max_joint_speed_deg_s: 54
+    max_tcp_speed_mm_s: 150
+    tcp_boundary_mm: [500, -500, 500, -500, 600, 0] # Exemplo de fronteira xmax, xmin, ymax, ymin, zmax, zmin
+tool:
+  payload_kg: 0.2846
